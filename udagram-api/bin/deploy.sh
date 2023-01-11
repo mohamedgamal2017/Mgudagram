@@ -5,7 +5,7 @@ eb create --sample $ENVNAME
 eb use $ENVNAME
 eb setenv AWS_BUCKET=$AWS_BUCKET
 eb setenv AWS_REGION=$AWS_REGION
-eb setenv DB_PORT=$DB_PORT 
+eb setenv DB_PORT='5432' 
 eb setenv JWT_SECRET=$JWT_SECRET 
 eb setenv DB_PORT=$DB_PORT 
 eb setenv POSTGRES_DB=$POSTGRES_DB 
